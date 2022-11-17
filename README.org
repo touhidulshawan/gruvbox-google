@@ -6,7 +6,7 @@ Gruvbox Dark theme for [[http://google.com][Google]] based on [[https://github.c
 
 ** Installation
 + First install stylus extension for [[https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne][Chrome]], [[https://addons.mozilla.org/pt-BR/firefox/addon/styl-us/][Firefox]]
-+ Click to install 📦 [[https://addons.mozilla.org/pt-BR/firefox/addon/styl-us/][Gruvbox-Google]]
++ Click to install 📦 [[https://userstyles.world/api/style/7350.user.css][Gruvbox-Google]]
 
 
 #+begin_SRC blockquote
