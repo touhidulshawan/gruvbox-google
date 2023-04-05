@@ -1,6 +1,8 @@
 #+title: Gruvbox Theme For Google
+#+description: Gruvbox Dark theme for Google.com
+#+author:[[mailto:touhidulshawan@gmail.com][Touhidul Shawan]]
 
-[[https://github.com/touhidulshawan/dotfiles/blob/main/.screenshots/gruvbox-google.png]]
+[[./gruvbox-google.png]]
 
 Gruvbox Dark theme for [[http://google.com][Google]] based on [[https://github.com/morhetz/gruvbox][morhetz]] gruvbox colorscheme
 
