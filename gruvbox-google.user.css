@@ -8,222 +8,96 @@
 @homepageURL    https://github.com/touhidulshawan/gruvbox-google
 @license        MIT
 ==/UserStyle== */
+@-moz-document domain("www.google.com") {
 
-@-moz-document domain("www.google.com")
-  html
-    --bg-primary: #282828;
-    --bg-secondary: #1d2021;
-    --comment: #32302f;
-    --red: #cc241d;
-    --green: #98971a;
-    --yellow: #d79921;
-    --blue: #458588;
-    --magenta: #b16286;
-    --cyan: #689d6a;
-    --orange: #d65d0e;
-    --fg-primary: #d5c4a1;
+    html {
 
-  body,
-  #hdtbSum,
-  #appbar,
-  #gb,
-  .c93Gbe,
-  .s,
-  .s .st em,
-  .st.s.std em,
-  .eJ7tvc,
-  #fbar
-  #pTwnEc
-  .sfbg
-    background: var(--bg-primary) !important;
-    color: var(--fg-primary) !important;
+        --bg-primary: #282828;
+        --bg-secondary: #1d2021;
+        --comment: #32302f;
+        --red: #cc241d;
+        --green: #98971a;
+        --yellow: #d79921;
+        --blue: #458588;
+        --magenta: #b16286;
+        --cyan: #689d6a;
+        --orange: #d65d0e;
+        --fg-primary: #d5c4a1;
+    }
 
+    body {
+        background-color: var(--bg-primary) !important;
+    }
 
-  a:link,
-  .w,
-  #prs a:visited,
-  #prs a:active,
-  .q:active,
-  .q:visited,
-  .kl:active,
-  .tbotu,
-  a.fl:link,
-  .fl a,
-  .flt,
-  a.flt,
-  .gl a:link,
-  a.mblink,
-  .mblink b,
-  .i3LlFf,
-  .kno-ecr-pt,
-  .w8qArf .fl
-    color: var(--blue) !important;
+    p {
+        color: var(--fg-primary) !important;
+    }
 
+    a {
+        color: var(--blue) !important;
+        transition: all 0.22s ease-in-out;
+    }
+    a:hover,
+    a:focus {
+        color: var(--green) !important;
+    }
 
-  .mblink:visited,
-  a:visited
-    color: var(--magenta) !important;
+    a:visited {
+        color: var(--magenta) !important;
+    }
 
+    .sfbg {
+        background-color: var(--bg-primary);
+    }
+    .pTwnEc {
+        background-color: var(--comment);
+    }
 
-  .cv2VAd,
-  .kp-blk,
-  #fbar,
-  .WwiUwd
-    background: var(--bg-secondary);
-    border-color: var(--comment);
+    .WE0UJf.NyYcvd {
+        background-color: var(--bg-primary);
+    }
 
-  .gLFyf,
-  .i29hTd .qLLird,
-  .sbct:first-child .suggestions-inner-container,
-  .RNNXgb
-    color: var(--fg-primary);
+    #result-stats {
+        margin: 0 auto;
+    }
 
+    .yg51vc {
+        background: var(--bg-primary) !important;
+    }
 
-  .aajZCb,
-  .sbl1,
-  .RNNXgb,
-  .sbhl
-    background: var(--bg-primary);
-    color: var(--fg-primary);
-    border: 1px solid var(--cyan);
-    border-radius: 0px !important;
+    g-menu {
+        background-color: var(--red);
+    }
 
-  .SDkEP
-    background: var(--bg-primary) !important;
-    color: var(--fg-primary) !important
+    #rcnt {
+        display: grid;
+        grid-template-columns: 2fr auto;
+        gap: 20px;
+        max-width: 100%;
+    }
+    #center_col {
+        margin: 0 auto;
+    }
+    #rhs {
+        margin-left: 0;
+        margin-right: 30px;
+    }
 
-  .ExCKkf > svg
-    color: var(--red);
+    /*card */
+    .Ww4FFb,
+    .vt6azd,
+    .tF2Cxc,
+    .asEBEc {
+        background: var(--bg-primary);
+        padding: 12px 22px;
+        border: 6px dotted var(--comment);
+        border-radius: 8px;
+    }
 
-  .QCzoEc > svg
-    color: var(--cyan);
-
-  .zgAlFc > span > svg
-    color: var(--orange);
-
-  .Tg7LZd
-    background: var(--bg-primary);
-
-  .k8XOCe
-  .R0xfCb
-  .VCOFK
-  .s8bAkb
-    background: var(--bg-primary);
-
-  .s75CSd
-  .OhScic
-  .AB4Wff
-    color: var(--cyan);
-
-  .sbct:hover
-    border: none !important;
-    background: var(--comment);
-    cursor: pointer;
-
-  .JCHpcb
-    color: var(--red) !important;
-
-  .wM6W7d
-  .WggQGd
-    color: var(--magenta) !important;
-
-  .minidiv .sfbg
-    background: var(--bg-secondary);
-
-
-  #hdtb
-    border: none;
-
-
-  .GHDvEf,
-  .GHDvEf:hover,
-  .GHDvEf.selected,
-  .GHDvEf.selected:hover
-    background: var(--comment);
-
-  .gb_0b
-    filter: invert(1);
-
-
-  .vk_bk
-    color: var(--cyan) !important;
-
-  /* card */
-  .MjjYud
-    background: var(--bg-primary);
-    padding: 4px;
-    border: 2px solid var(--comment);
-    border-radius: 5px;
-    margin-bottom: 15px;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
-    overflow: hidden;
-
-  .NTUU3c
-    background: var(--bg-secondary);
-
-  .Ww4FFb
-    background: transparent !important;
-
-  .oBa0Fe
-    background: var(--bg-primary);
-    padding: 5px;
-    border: 1px solid var(--cyan);
-    border-radius: 4px;
-    margin-left: -64px;
-    text-decoration: none;
-    color: var(--orange) !important;
-
-  .MXl0lf
-    background: var(--orange);
-    color: var(--bg-primary);
-    transition: all 0.3s ease-in-out;
-
-  .MXl0lf:hover
-    background: var(--blue);
-    color: var(--bg-primary)
-
-  .EZRelc .HbX59e
-    color: var(--commnet);
-
-  cite
-    color: var(--yellow) !important;
-
-  /* sidbar */
-  .SzZmKb
-    background: var(--bg-secondary);
-
-  .SPZz6b > h2 , .SPZz6b > div > span
-    color: var(--fg-primary) !important;
-
-  .glhbv
-  .pa8yL
-  .bvSTKc
-  .z1asCe
-  .Fp7My > svg
-    color: var(--yellow);
-
-  .yxjZuf
-    background: var(--comment);
-
-  #kp-wp-tab-overview
-    background: var(--bg-primary);
-
-  .I6TXqe
-    background: var(--cyan);
-
-  .dG2XIf
-  .Wnoohf
-  .OJXvsb
-    background: var(--bg-primary);
-
-  /* button on google.com home */
-
-  .gNO89b
-    background: var(--blue) !important;
-    color: var(--fg-primary) !important;
-    border: 1px solid var(--blue) !important;
-
-  .RNmpXc
-    background: var(--orange) !important;
-    color: var(--comment) !important;
-    border: 1px solid var(--orange) !important;
+    .e3sOrb {
+        background: var(--bg-primary);
+        padding: 20px 10px;
+        width: 50vw;
+        border: 15px dotted var(--comment);
+    }
+}
